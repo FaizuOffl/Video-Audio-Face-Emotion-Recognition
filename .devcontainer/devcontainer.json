@@ -1,0 +1,10 @@
+{
+  "name": "Python 3.10 Environment",
+  "dockerFile": "Dockerfile", // Points to the Dockerfile you just created
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python3.10" // Ensures Python 3.10 is the default interpreter
+  },
+  "extensions": [
+    "ms-python.python"
+  ]
+}
